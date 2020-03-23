@@ -13,14 +13,28 @@
       #exec-bio{
         background-color:lightgray;
       }
+
       .bio-box{
         border:1px  solid  black;
       }
+
       .bio-box a{
         color:green;
       }
-      .red {
+
+      .alert {
         background:red;
+      }
+
+      #exec-bio.alert{
+        background: red;
+      }
+
+      .bio-box{
+        width: 75%;
+      }
+      .bio-box{
+        width: 30%;
       }
 
 
@@ -48,7 +62,11 @@
     </div>
     <h2>I'm an h2</h2>
 
-    <div  class="bio-box">
+    <div  id="exec-bio"     class="bio-box  alert">
+        <a href="https://example.com/" >I'm a Link</a>
+    </div>
+
+    <div  class="bio-box  ">
         <a href="https://example.com/" >I'm a Link</a>
     </div>
 
@@ -56,13 +74,11 @@
         <a href="https://example.com/" >I'm a Link</a>
     </div>
 
-    <div  class="bio-box">
+    <div  class="bio-box  alert ">
         <a href="https://example.com/" >I'm a Link</a>
     </div>
 
-    <div  class="bio-box  red">
-        <a href="https://example.com/" >I'm a Link</a>
-    </div>
+
 
   </body>
 
